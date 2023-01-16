@@ -2,25 +2,46 @@ html {
   max-width: 70%;
   margin: 0px auto;
 }
+header {
+  margin-top: 15px;
+}
 #logo {
-  float: left
+  float: left;
+  margin: 6px;
+  height: 37px;
 }
 h1 {
-  font-size: xx-large;
+  font-family: 'Dancing Script', cursive;
+  font-size: 32px;
 }
 h2 {
+  font-size: 12px;
   opacity: 0.5;
 }
 nav {
   float: right;
+  position: relative;
+  bottom: 15px;
 }
-nav img {
+.nav_icon{
+  float: left;
+  font-size: 0;
+  border: 1px solid white;
+}
+.nav_icon img {
   height: 20px;
   width: 20px;
-  margin: 1px;
+}
+#pinterest_icon {
+  margin-right: 5px;
+}
+.spacer_image {
+  height: 10px;
+  margin: 30px 0px;
+  width: 100%;
+  background-image: url("../img/hr-img.png");
 }
 h3 {
-  margin-top: 100px;
   font-size: 40px;
   font-weight: 500;
 }
